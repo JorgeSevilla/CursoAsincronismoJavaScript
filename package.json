@@ -1,0 +1,22 @@
+{
+  "name": "cursoasincronismojavascript",
+  "version": "1.0.0",
+  "description": "Curso de asincronismo con JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeSevilla/CursoAsincronismoJavaScript.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Jorge Sevilla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JorgeSevilla/CursoAsincronismoJavaScript/issues"
+  },
+  "homepage": "https://github.com/JorgeSevilla/CursoAsincronismoJavaScript#readme"
+}
