@@ -13,9 +13,9 @@ Error: API Not Found
 */
 
 import fetch from "node-fetch";
-const API = 'https://api.escuelajs.co/api/v1';
+const API = 'https://domain-api-com';
 
-async function runCode(urlApi){
+async function findApi(urlApi){
     
    const response = await fetch(urlApi);
    const data = await response.json();
@@ -23,16 +23,16 @@ async function runCode(urlApi){
 
 }
 
-const callRunCode = async (urlApi) =>{
+const callRunCodeForFindApi = async (urlApi) =>{
     try{
-        const api = await runCode(`${urlApi}`);
+        const api = await findApi(`${urlApi}`);
         console.log(api);
     }catch (error){
         console.error('API Not Found');
     }
 }
 
-callRunCode(API);
+callRunCodeForFindApi(API);
 
 /*export async function runCode() {
   const url = 'https://domain-api-com';
